@@ -1,0 +1,163 @@
+* {
+	box-sizing: border-box;
+	padding : 0px auto;
+	margin : 0px auto;
+	/*font: 300 1.25em/1.4 "Lato", sans-serif;*/
+	color: #686868;
+}
+.cart-titel {
+	width: 100%;
+	height: 100px;
+	/*background: #eee;*/
+	padding: 20px;
+}
+.cart-titel h1 {
+	/*background: orange;*/
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	/*font-size: 44px;*/
+	font-weight: 400;
+}
+.cart-body {
+	width: 80%;
+	/*height: 700px;*/
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.left-part {
+	width: 70%;
+	height: 100%;
+	/*background: #ddd;*/
+	float: left;
+}
+.right-part {
+	width: 30%;
+	/*height: 500px;*/
+	/*height: 100%;*/
+	background: #ccc;
+	float: left;
+}
+.cart-item {
+	width: 100%;
+	height: 150px;
+	/*background: #aaa;*/
+	border:1px solid #bdc3c7;
+	margin-bottom: 25px;
+}
+.cart-item:hover {
+	border:1px solid #489eea;
+}
+.cart-pick {
+	width: 20%;
+	height: 150px;
+	max-height: 150px;
+	min-width: 150px;
+	/*padding-top: 2px;*/
+	/*background: #000;*/
+	margin: auto;
+	float: left;
+}
+.cart-pick img {
+	width: 100%;
+	height: 98%;
+}
+.cart-details {
+	width: 45%;
+	height: 100%;
+	float: left;
+	border-left: 1px solid #bdc3c7;
+	/*background: #ddd;*/
+}
+.cart-limit {
+	width: 17.9%;
+	height: 100%;
+	border-right: 1px solid #bdc3c7;
+	border-left: 1px solid #bdc3c7;
+	/*background: #ccc;*/
+	float: left;
+}
+.cart-cont {
+	width: 100%;
+	height: 65%;
+	/*background: #aaa;*/
+	float: left;
+}
+.cart-bil {
+	width: 100%;
+	/*height: 35%;*/
+	padding: 14px 10px 15px 10px;
+	/*background: #ccc;*/
+	float: left;
+}
+.add-min {
+	/*padding: 5% 0% 5% 0%;*/
+	margin-top: 20%;
+	width: 100%;
+	height: 50%;
+	/*background: blue;*/
+	border: 1px solid;
+	float: left;
+}
+#add-min-c-number {
+	width: 100%;
+	/*height: 30px;*/
+	/*font-size: 20px;*/
+}
+.cart-bill {
+	width: 17%;
+	height: 100%;
+	/*background: #eee;*/
+	float: left;
+}
+.c-mark {
+	width: 100%;
+	/*height: 30%;*/
+	padding: 12px 10px 14px 10px;
+	float: left;
+	/*background: blue;*/
+}
+.c-remove {
+	width: 100%;
+	/*height: 30%;*/
+	padding: 10px 10px 10px 10px;
+	float: left;
+	/*background: blue;*/
+}
+#c-r-b {
+	opacity: 0;
+	height: 23.5px;
+	width: 55px;
+	background: red;
+	border: none;
+	border-radius: 10px;
+	color: white;
+}
+.c-remove:hover #c-r-b {
+	opacity: 1;
+	/*font-size: 15px;*/
+	padding: 2px;
+}
+.c-price {
+	width: 100%;
+	/*height: 40%;*/
+	padding: 16px 10px 20px 10px;
+	float: left;
+	/*background: orange;*/
+}
+.c-total {
+	/*margin-left: 2%;*/
+	margin-left: 10px;
+	width: 98%;
+	/*height: 20px;*/
+	/*background: orange;*/
+	position: fixed;
+	max-width: 315px;
+}
+.c-section {
+	width: 100%;
+	padding: 40px 20px 40px 40px;
+	border-top: 1px solid #bdc3c7;
+	border-left: 1px solid #bdc3c7;
+	border-right: 1px solid #bdc3c7;
+}

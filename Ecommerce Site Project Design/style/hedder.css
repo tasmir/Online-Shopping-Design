@@ -1,0 +1,108 @@
+* {
+	box-sizing: border-box;
+}
+.TopPart {
+	height :100px;
+	width : 100%;
+	/*border-bottom: 2px solid blue;*/
+	/*background :#489eea;*/
+	/*height: 2%;*/
+}.topsp{
+	height: 30%;
+	width: 100%;
+	/*background: red;*/
+}
+.topBody {
+	height: 70%;
+	width: 100%;
+}
+.logo{
+	float: left;
+	margin-left: 5%;
+	/*background: #f0f0f0;*/
+	border-radius: 15px;
+	height: 100%;
+	width: 100px;
+	padding-top: .40%;
+	padding-left: 1.45%;
+	/*border: 1px solid red;*/
+}
+.logo img {
+	background: #ddd;
+	height: 65%;
+	width: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.TopPartSearchbody {
+	float: left; 
+	width: 50%;
+	height: 100%;
+	/*border: 1px solid red;*/
+	/*background: #ddd;*/
+}
+.topSearch button:hover {
+    background: #0b7dda;
+}
+.topSearch input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 90%;
+    background: #f1f1f1;
+}
+
+.topSearch button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+.topSearch::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.topSearch {
+	/*width: 15%;*/
+	width: 80%;
+	height: 100%;
+	/*float: right;*/
+	margin-right: 3%;
+	padding-top: 4px;
+	float: right;
+	/*border: 1px solid blue;*/
+}.topOptions {
+	float: left;
+	width: 33%;
+	height: 100%;
+	/*border: 1px solid red;*/
+}
+.siginButton {
+	background: #ed4923;
+	border: 1px solid #ed4923;
+}
+.contentButton {
+	background: #60bb46;
+	border: 1px solid #60bb46;
+}
+.cartButton {
+	background: #5f27ae;
+	border: 1px solid #5f27ae;
+}
+.TheButtons {
+	float: left;
+	height: 35%;
+	margin-top: 3%;
+	border-radius: 25px;
+	width: 17%;
+	margin-left: 5%;
+	color: white;
+}

@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+	padding : 0px auto;
+	margin : 0px auto;
+}
+.img-zoom-container {
+	position: relative;
+}
+.img-zoom-container img {
+	background: #ddd;
+	/*opacity: .5;*/
+}
+.img-zoom-lens {
+	position: absolute;
+	/*border: 1px solid #d4d4d4;*/
+	/*set the size of the lens:*/
+	width: 150px;
+	height: 100px;
+}
+.img-zoom-result {
+	margin-left: 100px;
+	border: 1px solid #d4d4d4;
+	/*set the size of the result div:*/
+	width: 900px;
+	height: 600px;
+	float: right;
+	/*opacity: 0;*/
+
+}
+.img-zoom-lens:hover {border: 1px solid #d4d4d4;}
+/*.img-zoom-lens:hover + .img-zoom-result {opacity: 1;}*/
+.containt {
+	width: 100%;
+	float: left;
+}
+.viewProduct {
+	height: 230px;
+	width: 240px;
+/*	background:red;*/
+	float: left;
+}
+.futterPart {
+	float: left;
+	width: 100%;
+}
+.viewProduct : hover .img-zoom-result {
+	opacity: 1
+}
